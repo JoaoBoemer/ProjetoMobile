@@ -1,6 +1,7 @@
 package com.example.projetomobile;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -36,6 +37,8 @@ public class MenuActivity extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, equipes);
         lista.setAdapter(arrayAdapter);
 
+        RegisterCompanyButton();
+
     }
 
     private ArrayList<String> preencherDados() {
@@ -47,6 +50,18 @@ public class MenuActivity extends AppCompatActivity {
         dados.add("5 Empresa teste");
         dados.add("6 Teste Empresa");
         return dados;
+    }
+
+
+    private void RegisterCompanyButton() {
+        Button nextButton = findViewById(R.id.buttonRegisterCompany);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, cadastroActivity.class));
+            }
+        });
+
     }
 
 }
