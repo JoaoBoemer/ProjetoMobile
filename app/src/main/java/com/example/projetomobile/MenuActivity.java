@@ -40,6 +40,7 @@ public class MenuActivity extends AppCompatActivity {
         lista.setAdapter(arrayAdapter);
 
         RegisterCompanyButton();
+        consultorioButton();
 
     }
 
@@ -76,4 +77,14 @@ public class MenuActivity extends AppCompatActivity {
         });
     }
 
+    private void consultorioButton() {
+        Button nextButton = findViewById(R.id.buttonConsultorio);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuActivity.this, consultaActivity.class));
+            }
+        });
+
+    }
 }
