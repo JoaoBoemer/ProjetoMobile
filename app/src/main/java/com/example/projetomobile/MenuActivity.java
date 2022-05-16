@@ -30,6 +30,8 @@ public class MenuActivity extends AppCompatActivity {
         RegisterCompanyButton();
         consultorioButton();
 
+        
+
     }
 
     private ArrayList<String> preencherDados() {
@@ -70,7 +72,7 @@ public class MenuActivity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuActivity.this, ConsultaActivity.class));
+                startActivity(new Intent(MenuActivity.this, ConsultorioActivity.class));
             }
         });
 

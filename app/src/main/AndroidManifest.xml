@@ -14,10 +14,10 @@
         android:theme="@style/Theme.ProjetoMobile"
         tools:targetApi="31">
         <activity
-            android:name=".ConsultorioActivity"
+            android:name=".ConsultaActivity"
             android:exported="false" />
         <activity
-            android:name=".ConsultaActivity"
+            android:name=".ConsultorioActivity"
             android:exported="false" />
         <activity android:name=".cadastroActivity" />
         <activity
