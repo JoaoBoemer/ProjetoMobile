@@ -16,7 +16,7 @@ public class cadastroActivity extends AppCompatActivity {
 }
 
     private void configureBackButton() {
-        Button backButton = (Button) findViewById(R.id.buttonbuttonVoltar32);
+        Button backButton = (Button) findViewById(R.id.buttonVoltar2);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

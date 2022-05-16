@@ -6,18 +6,162 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <EditText
+        android:id="@+id/segInicio"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="73dp"
+        android:ems="10"
+        android:hint="SEG INICIO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQui"
+        app:layout_constraintEnd_toStartOf="@+id/segTermino"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonSeg" />
+
+    <EditText
+        android:id="@+id/terInicio"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:hint="TER INICIO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQui"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonSeg" />
+
+    <EditText
+        android:id="@+id/quaInicio"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:hint="QUA INICIO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQui"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonSeg" />
+
+    <EditText
+        android:id="@+id/quiInicio"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:hint="QUI INICIO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQui"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonSeg" />
+
+    <EditText
+        android:id="@+id/sexInicio"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:hint="SEX INICIO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQui"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonSeg" />
+
+    <EditText
+        android:id="@+id/segTermino"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="350dp"
+        android:ems="10"
+        android:hint="SEG TERMINO"
+        android:inputType="time"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSalvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/segInicio"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/quaTermino"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:hint="QUA TERMINO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/segInicio"
+        app:layout_constraintTop_toBottomOf="@+id/segTermino" />
+
+    <EditText
+        android:id="@+id/quiTermino"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:hint="QUI TERMINO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/segInicio"
+        app:layout_constraintTop_toBottomOf="@+id/segTermino" />
+
+    <EditText
+        android:id="@+id/sexTermino"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:hint="SEX TERMINO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/segInicio"
+        app:layout_constraintTop_toBottomOf="@+id/segTermino" />
+
+    <EditText
+        android:id="@+id/terTermino2"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:hint="TER TERMINO"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/segInicio"
+        app:layout_constraintTop_toBottomOf="@+id/segTermino" />
+
     <TextView
         android:id="@+id/InfoConsultorio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="Informações do Consultório"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/RadioTer"
@@ -25,61 +169,16 @@
         android:layout_height="wrap_content"
         android:text="TER"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonTer"
-        app:layout_constraintEnd_toStartOf="@+id/RadioQua"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/RadioSeg"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/QuaInicio"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="QUA INICIO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/QuiInicio"
-        app:layout_constraintEnd_toStartOf="@+id/QuaTermino"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TerInicio" />
-
-    <EditText
-        android:id="@+id/SegIncio"
-        android:layout_width="124dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="SEG TERMINO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/TerTermino"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/SegInicio"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtonSex" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonTer"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonTer" />
 
     <RadioButton
         android:id="@+id/radioButtonSex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toStartOf="@+id/radioButtonSab"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/radioButtonQui"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="0.102" />
-
-    <EditText
-        android:id="@+id/TerTermino"
-        android:layout_width="125dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="TER TERMINO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/QuaTermino"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/TerInicio"
-        app:layout_constraintTop_toBottomOf="@+id/SegIncio" />
+        app:layout_constraintTop_toTopOf="@+id/radioButtonSab" />
 
     <TextView
         android:id="@+id/RadioDom"
@@ -87,48 +186,29 @@
         android:layout_height="wrap_content"
         android:text="DOM"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonDom"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/RadioSab"
-        app:layout_constraintTop_toBottomOf="@+id/InfoConsultorio"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonDom"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonDom" />
 
-    <EditText
-        android:id="@+id/TerInicio"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="TER INICIO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/QuaInicio"
-        app:layout_constraintEnd_toStartOf="@+id/TerTermino"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SegInicio" />
+    <!--app:layout_constraintEnd_toStartOf="@+id/TerTermino"-->
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/SegInicio" />
 
     <RadioButton
         android:id="@+id/radioButtonTer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/radioButtonQua"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="8dp"
         app:layout_constraintStart_toEndOf="@+id/radioButtonSeg"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintTop_toTopOf="@+id/radioButtonSeg" />
 
     <RadioButton
         android:id="@+id/radioButtonSeg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:layout_marginBottom="474dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonVoltar3"
-        app:layout_constraintEnd_toStartOf="@+id/radioButtonTer"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="175dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/RadioSeg"
@@ -136,35 +216,16 @@
         android:layout_height="wrap_content"
         android:text="SEG"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonSeg"
-        app:layout_constraintEnd_toStartOf="@+id/RadioTer"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonSeg"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonSeg" />
 
     <RadioButton
         android:id="@+id/radioButtonSab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="12dp"
         app:layout_constraintEnd_toStartOf="@+id/radioButtonDom"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/radioButtonSex"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="0.102" />
-
-    <EditText
-        android:id="@+id/SegInicio"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="SEG INICIO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/TerInicio"
-        app:layout_constraintEnd_toStartOf="@+id/SegIncio"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtonTer" />
+        app:layout_constraintTop_toTopOf="@+id/radioButtonDom" />
 
     <TextView
         android:id="@+id/RadioSex"
@@ -172,22 +233,18 @@
         android:layout_height="wrap_content"
         android:text="SEX"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonSex"
-        app:layout_constraintEnd_toStartOf="@+id/RadioSab"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/RadioQui"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonSex"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonSex" />
 
     <RadioButton
         android:id="@+id/radioButtonQui"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="9dp"
         app:layout_constraintEnd_toStartOf="@+id/radioButtonSex"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/radioButtonQua"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintTop_toTopOf="@+id/radioButtonSex" />
 
     <TextView
         android:id="@+id/RadioSab"
@@ -195,35 +252,16 @@
         android:layout_height="wrap_content"
         android:text="SAB"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonSab"
-        app:layout_constraintEnd_toStartOf="@+id/RadioDom"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/RadioSex"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/QuaTermino"
-        android:layout_width="123dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="QUA TERMINO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/QuiTermino"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/QuaInicio"
-        app:layout_constraintTop_toBottomOf="@+id/TerTermino" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonSab"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonSab" />
 
     <RadioButton
         android:id="@+id/radioButtonQua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/radioButtonQui"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="9dp"
         app:layout_constraintStart_toEndOf="@+id/radioButtonTer"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintTop_toTopOf="@+id/radioButtonTer" />
 
     <TextView
         android:id="@+id/RadioQui"
@@ -231,64 +269,9 @@
         android:layout_height="wrap_content"
         android:text="QUI"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonQui"
-        app:layout_constraintEnd_toStartOf="@+id/RadioSex"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/RadioQua"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <EditText
-        android:id="@+id/QuiInicio"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="QUI INICIO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/SexInicio"
-        app:layout_constraintEnd_toStartOf="@+id/QuiTermino"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/QuaInicio" />
-
-    <EditText
-        android:id="@+id/SexTermino"
-        android:layout_width="125dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="SEX TERMINO"
-        android:inputType="time"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/SexInicio"
-        app:layout_constraintTop_toBottomOf="@+id/QuiTermino" />
-
-    <EditText
-        android:id="@+id/SexInicio"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:hint="SEX INICIO"
-        android:inputType="time"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/SexTermino"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/QuiInicio" />
-
-    <EditText
-        android:id="@+id/QuiTermino"
-        android:layout_width="121dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="QUI TERMINO"
-        android:inputType="time"
-        app:layout_constraintBottom_toTopOf="@+id/SexTermino"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/QuiInicio"
-        app:layout_constraintTop_toBottomOf="@+id/QuaTermino"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQui"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonQui" />
 
     <TextView
         android:id="@+id/RadioQua"
@@ -296,60 +279,51 @@
         android:layout_height="wrap_content"
         android:text="QUA"
         app:layout_constraintBottom_toTopOf="@+id/radioButtonQua"
-        app:layout_constraintEnd_toStartOf="@+id/RadioQui"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/RadioTer"
-        app:layout_constraintTop_toBottomOf="@+id/HorarioFuncionamento"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintEnd_toEndOf="@+id/radioButtonQua"
+        app:layout_constraintStart_toStartOf="@+id/radioButtonQua" />
 
     <RadioButton
         android:id="@+id/radioButtonDom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButtonQua"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/radioButtonSab"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintTop_toTopOf="@+id/radioButtonQua" />
 
     <TextView
         android:id="@+id/HorarioFuncionamento"
-        android:layout_width="250dp"
+        android:layout_width="0dp"
         android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="37dp"
         android:text="Horário de Funcionamento"
         android:textColor="#1E3D7A"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/InfoConsultorio"
-        app:layout_constraintVertical_bias="0.051" />
+        app:layout_constraintBottom_toTopOf="@+id/RadioSab"
+        app:layout_constraintEnd_toEndOf="@+id/InfoConsultorio"
+        app:layout_constraintStart_toStartOf="@+id/InfoConsultorio"
+        app:layout_constraintTop_toBottomOf="@+id/InfoConsultorio" />
 
     <Button
-        android:id="@+id/buttonAgendar"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:text="@string/Agendar"
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/buttonVoltar3"
-        app:layout_constraintTop_toBottomOf="@+id/SexTermino"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/segTermino" />
 
     <Button
         android:id="@+id/buttonVoltar3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginEnd="186dp"
-        android:layout_marginBottom="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="4dp"
         android:text="@string/voltar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonAgendar"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButtonSeg" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

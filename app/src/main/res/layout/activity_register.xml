@@ -49,10 +49,10 @@
         app:layout_constraintVertical_bias="0.437" />
 
     <Button
-        android:id="@+id/buttonbuttonVoltar3"
+        android:id="@+id/buttonVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="buttonVoltar3"
+        android:text="@string/voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.699"
