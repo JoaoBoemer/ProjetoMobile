@@ -30,7 +30,7 @@ public class MenuActivity extends AppCompatActivity {
         RegisterCompanyButton();
         consultorioButton();
 
-        
+
 
     }
 
