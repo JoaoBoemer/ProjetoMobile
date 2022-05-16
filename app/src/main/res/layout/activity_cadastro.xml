@@ -146,11 +146,11 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/buttonVoltar2"
+        android:id="@+id/buttonbuttonVoltar32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Voltar"
+        android:text="buttonVoltar3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
@@ -165,6 +165,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.748"
-        app:layout_constraintStart_toEndOf="@+id/buttonVoltar2" />
+        app:layout_constraintStart_toEndOf="@+id/buttonbuttonVoltar32" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

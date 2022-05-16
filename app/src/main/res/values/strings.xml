@@ -19,4 +19,6 @@
     <string name="municipio">Municipio</string>
     <string name="uf">UF</string>
     <string name="telefone">Telefone</string>
+    <string name="voltar">Voltar</string>
+    <string name="Agendar">Agendar</string>
 </resources>

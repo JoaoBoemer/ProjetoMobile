@@ -17,7 +17,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void configureBackButton() {
-        Button backButton = (Button) findViewById(R.id.buttonVoltar);
+        Button backButton = (Button) findViewById(R.id.buttonbuttonVoltar3);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
